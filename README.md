@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Basic Commands
+    This will install the angular CLI with the latest version
+    > npm install -g @angular/cli
+
+    This will create a new project with angular
+    >ng new my-dream-app
+
+    This will start the application and open in the default browser
+    >ng serve --open 
+
+    This will create the componenet and it will add to the root.
+    >ng g c compo-name
+    //g - Generate
+    //c - Component
+    //comp-name component name that need to be created.
